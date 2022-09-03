@@ -1,0 +1,20 @@
+{
+	"name": "maps",
+	"source": "index.html",
+	"main": "index.js",
+	"browserslist": "> 0.5%, last 2 versions, not dead",
+	"scripts": {
+		"start": "parcel",
+		"build": "parcel build"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/faker": "^5.5.9",
+		"@types/google.maps": "^3.50.0",
+		"faker": "^5.5.3"
+	},
+	"devDependencies": {
+		"parcel": "^2.7.0"
+	}
+}
